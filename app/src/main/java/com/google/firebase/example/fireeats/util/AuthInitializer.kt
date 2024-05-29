@@ -3,8 +3,8 @@ package com.google.firebase.example.fireeats.util
 import android.content.Context
 import androidx.startup.Initializer
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.BuildConfig
 import com.google.firebase.auth.ktx.auth
-import com.google.firebase.example.fireeats.BuildConfig
 import com.google.firebase.ktx.Firebase
 
 class AuthInitializer : Initializer<FirebaseAuth> {
